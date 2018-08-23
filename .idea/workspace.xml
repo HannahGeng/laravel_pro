@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ae0530e-4a73-4663-b3e7-4ba72ad91aef" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/laravel54/app/Http/Controllers/LoginController.php" afterPath="$PROJECT_DIR$/laravel54/app/Http/Controllers/LoginController.php" />
-      <change beforePath="$PROJECT_DIR$/laravel54/app/Http/Controllers/PostController.php" afterPath="$PROJECT_DIR$/laravel54/app/Http/Controllers/PostController.php" />
-      <change beforePath="$PROJECT_DIR$/laravel54/app/Http/Controllers/UserController.php" afterPath="$PROJECT_DIR$/laravel54/app/Http/Controllers/UserController.php" />
-      <change beforePath="$PROJECT_DIR$/laravel54/app/Providers/AuthServiceProvider.php" afterPath="$PROJECT_DIR$/laravel54/app/Providers/AuthServiceProvider.php" />
-      <change beforePath="$PROJECT_DIR$/laravel54/app/post.php" afterPath="$PROJECT_DIR$/laravel54/app/post.php" />
-      <change beforePath="$PROJECT_DIR$/laravel54/public/js/ylaravel.js" afterPath="$PROJECT_DIR$/laravel54/public/js/ylaravel.js" />
-      <change beforePath="$PROJECT_DIR$/laravel54/resources/views/layout/nav.blade.php" afterPath="$PROJECT_DIR$/laravel54/resources/views/layout/nav.blade.php" />
-      <change beforePath="$PROJECT_DIR$/laravel54/resources/views/post/index.blade.php" afterPath="$PROJECT_DIR$/laravel54/resources/views/post/index.blade.php" />
-      <change beforePath="$PROJECT_DIR$/laravel54/resources/views/post/show.blade.php" afterPath="$PROJECT_DIR$/laravel54/resources/views/post/show.blade.php" />
-      <change beforePath="$PROJECT_DIR$/laravel54/resources/views/user/setting.blade.php" afterPath="$PROJECT_DIR$/laravel54/resources/views/user/setting.blade.php" />
-      <change beforePath="$PROJECT_DIR$/laravel54/routes/web.php" afterPath="$PROJECT_DIR$/laravel54/routes/web.php" />
+      <change beforePath="$PROJECT_DIR$/laravel54/app/Console/Kernel.php" afterPath="$PROJECT_DIR$/laravel54/app/Console/Kernel.php" />
+      <change beforePath="$PROJECT_DIR$/laravel54/composer.json" afterPath="$PROJECT_DIR$/laravel54/composer.json" />
+      <change beforePath="$PROJECT_DIR$/laravel54/composer.lock" afterPath="$PROJECT_DIR$/laravel54/composer.lock" />
+      <change beforePath="$PROJECT_DIR$/laravel54/config/app.php" afterPath="$PROJECT_DIR$/laravel54/config/app.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PostController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PostController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel54/app/Http/Controllers/PostController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="22" column="32" lean-forward="false" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+            <state relative-caret-position="729">
+              <caret line="130" column="5" lean-forward="false" selection-start-line="130" selection-start-column="5" selection-end-line="130" selection-end-column="5" />
               <folding>
                 <element signature="e#552#624#0#PHP" expanded="false" />
                 <element signature="e#641#1045#0#PHP" expanded="false" />
@@ -39,6 +32,38 @@
                 <element signature="e#2378#2583#0#PHP" expanded="false" />
                 <element signature="e#2589#2700#0#PHP" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Post.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel54/app/Post.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ESInit.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel54/app/Console/Commands/ESInit.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1002">
+              <caret line="64" column="19" lean-forward="false" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
+              <folding>
+                <element signature="e#40#62#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scout.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/laravel54/config/scout.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="729">
+              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -62,12 +87,16 @@
         <option value="$PROJECT_DIR$/laravel54/database/migrations/2018_08_21_112530_create_comments_table.php" />
         <option value="$PROJECT_DIR$/laravel54/app/Comment.php" />
         <option value="$PROJECT_DIR$/laravel54/app/Zan.php" />
-        <option value="$PROJECT_DIR$/laravel54/app/Post.php" />
         <option value="$PROJECT_DIR$/laravel54/resources/views/post/show.blade.php" />
         <option value="$PROJECT_DIR$/laravel54/routes/web.php" />
         <option value="$PROJECT_DIR$/laravel54/database/migrations/2018_08_21_141606_create_zans_table.php" />
         <option value="$PROJECT_DIR$/laravel54/resources/views/post/index.blade.php" />
         <option value="$PROJECT_DIR$/laravel54/app/Http/Controllers/PostController.php" />
+        <option value="$PROJECT_DIR$/laravel54/config/app.php" />
+        <option value="$PROJECT_DIR$/laravel54/config/scout.php" />
+        <option value="$PROJECT_DIR$/laravel54/app/Console/Kernel.php" />
+        <option value="$PROJECT_DIR$/laravel54/app/Console/Commands/ESInit.php" />
+        <option value="$PROJECT_DIR$/laravel54/app/Post.php" />
       </list>
     </option>
   </component>
@@ -78,14 +107,14 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="753" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="711" />
     <option name="y" value="5" />
-    <option name="width" value="1162" />
+    <option name="width" value="1204" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -98,7 +127,53 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="laravel_pro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel_pro" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="laravel_pro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel_pro" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="laravel54" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="laravel_pro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel_pro" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="laravel54" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="laravel_pro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel_pro" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="laravel54" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Console" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="laravel_pro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel_pro" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="laravel54" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Console" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Commands" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="laravel_pro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel_pro" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="laravel54" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -133,21 +208,21 @@
       <workItem from="1534726515178" duration="1646000" />
       <workItem from="1534815778678" duration="13840000" />
       <workItem from="1534899749464" duration="3289000" />
-      <workItem from="1534986420444" duration="673000" />
+      <workItem from="1534986420444" duration="9505000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22408000" />
+    <option name="totallyTimeSpent" value="31240000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="753" y="5" width="1162" height="1040" extended-state="1" />
+    <frame x="711" y="5" width="1204" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18893678" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22648902" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -413,14 +488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel54/app/Post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/laravel54/app/Zan.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -428,10 +495,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/laravel54/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel54/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="182" column="0" lean-forward="false" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/laravel54/app/Http/Controllers/PostController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="22" column="32" lean-forward="false" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        <state relative-caret-position="729">
+          <caret line="130" column="5" lean-forward="false" selection-start-line="130" selection-start-column="5" selection-end-line="130" selection-end-column="5" />
           <folding>
             <element signature="e#552#624#0#PHP" expanded="false" />
             <element signature="e#641#1045#0#PHP" expanded="false" />
@@ -443,6 +526,40 @@
             <element signature="e#2378#2583#0#PHP" expanded="false" />
             <element signature="e#2589#2700#0#PHP" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel54/app/Console/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel54/app/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel54/app/Console/Commands/ESInit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1002">
+          <caret line="64" column="19" lean-forward="false" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
+          <folding>
+            <element signature="e#40#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel54/config/scout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
